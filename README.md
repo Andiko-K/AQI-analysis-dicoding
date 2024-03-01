@@ -9,3 +9,8 @@ This repository contains:
 
 Access the site through:
 https://dashboardpy-gems5s2o3nxxsrtepk9eni.streamlit.app/
+
+## How to run the program:
+1. Extract all files
+2. use `pip install -r requirements.txt`
+3. open the streamlit using `streamlit run ./dashboard/dahsboard.py
