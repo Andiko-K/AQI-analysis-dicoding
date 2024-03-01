@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 st.title('Statistik Polusi Udara pada Stasiun Pengamatan Tiongkok')
-pollution_df = pd.read_csv('pollution_data.csv')
+pollution_df = pd.read_csv('./dashboard/pollution_data.csv')
 pollution_df['date'] = pd.to_datetime(pollution_df['date'])
 
 #Filter date_input untuk komponen sidebar 
